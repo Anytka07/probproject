@@ -1,0 +1,69 @@
+﻿<Window x:Class="Wpfprojectprob.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfprojectprob"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000" MaxHeight="600" MaxWidth="1000"
+        MinHeight="600" MinWidth="1000" Background="#FF110203" 
+        WindowStartupLocation="CenterOwner" WindowStyle="None" ResizeMode="NoResize">
+    <Window.Resources>
+        <ControlTemplate x:Key="TopMenuButton" TargetType="Button">
+            <Grid Name="Btn" Height="40" Margin="20,0,0,0">
+                <Border>
+                    <Grid>
+                        <Label Content="{TemplateBinding Content}"
+                               Background="Transparent" FontSize ="23"
+                               VerticalAlignment="Center">
+                            <Label.Style>
+                                <Style TargetType="Label">
+                                    <Setter Property="Foreground" Value="#FF909999"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=IsMouseOver,ElementName=Btn}" Value="true">
+                                            <Setter Property="Foreground" Value="White"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    
+                                </Style>
+                            </Label.Style>
+                        </Label>
+                    </Grid>
+                </Border>
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Name="TopMenu" Grid.Row="0" Grid.ColumnSpan="2">
+            <Border BorderThickness="1" BorderBrush="#FF303031" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <Button Template="{StaticResource ResourceKey=TopMenuButton}" Content="Фільми"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButton}" Content="Актори"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButton}" Content="Режисери"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButton}" Content="Популярне"/>
+                    <Button Template="{StaticResource ResourceKey=TopMenuButton}" Content="Відгуки"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Name ="SlideMenu" Grid.Column="0" Grid.Row="1">
+            <Border BorderThickness="1,0,1,1" BorderBrush="#FF303031"/>
+            <Border BorderThickness="0" Background="Black" Opacity="0.6"/>
+            <StackPanel Orientation="Vertical">
+                <Button Height="100"/>
+                <Button Height="100"/>
+                <Button Height="100"/>
+                <Button Height="100"/>
+                <Button Height="100"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

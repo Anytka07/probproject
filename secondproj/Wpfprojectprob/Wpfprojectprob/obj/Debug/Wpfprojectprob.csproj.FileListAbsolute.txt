@@ -1,0 +1,16 @@
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\bin\Debug\Wpfprojectprob.exe.config
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\bin\Debug\Wpfprojectprob.exe
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\bin\Debug\Wpfprojectprob.pdb
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.csproj.AssemblyReference.cache
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.csproj.SuggestedBindingRedirects.cache
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\MainWindow.g.cs
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\App.g.cs
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob_MarkupCompile.cache
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob_MarkupCompile.lref
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\MainWindow.baml
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.g.resources
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.Properties.Resources.resources
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.csproj.GenerateResource.cache
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.csproj.CoreCompileInputs.cache
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.exe
+C:\Users\Саша\source\repos\Wpfprojectprob\Wpfprojectprob\obj\Debug\Wpfprojectprob.pdb
